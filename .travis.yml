@@ -1,11 +1,13 @@
 language: python
 python:
+  - 2.4
   - 2.6
   - 2.7
+  - pypy
+  - 3.1
   - 3.2
   - 3.3
   - 3.4
-  - pypy
 # command to run tests
 script:
  # update egg_info based on setup.py in checkout
